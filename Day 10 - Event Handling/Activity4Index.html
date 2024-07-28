@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Events</title>
+    <script src="Activity 4 - Form Events.js" defer></script>
+  </head>
+  <body>
+    <div style="padding: 20px 20px 20px 0px">Feedback form</div>
+    <form id="submit">
+      <label for="FirstName">First Name</label>
+      <input type="text" name="FirstName" id="firstname" />
+      <label for="LastName">Last Name</label>
+      <input type="text" name="LastName" id="lastname" />
+      <button type="submit">Submit</button>
+    </form>
+
+    <div style="padding: 20px 20px 20px 0px">
+      <label for="experience-select">Choose experience:</label>
+      <select name="feedback" id="experience-select">
+        <option value="">Please select experience</option>
+        <option value="poor">Poor</option>
+        <option value="good">Good</option>
+        <option value="excellent">Excellent</option>
+      </select>
+      <p id="select-value"></p>
+    </div>
+  </body>
+</html>
